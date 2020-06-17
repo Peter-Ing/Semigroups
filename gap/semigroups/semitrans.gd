@@ -43,3 +43,5 @@ DeclareAttribute("DigraphCore", IsDigraph);
 DeclareOperation("WreathProduct",
                  [IsMultiplicativeElementCollection,
                   IsMultiplicativeElementCollection]);
+                
+DeclareOperation("MinimalSingularGeneratingTransforms", [IsTransformationMonoid];)
