@@ -1291,7 +1291,7 @@ end);
 
 InstallMethod(MinimalContainingSingularSemigroup, " for permutation group and degree", [IsGroup],
 function(G,n)
-	local t, G, n, D, id, f, o, O, d, I, J, K, L, N, e, q, i, Digo, nlc, sing, g, gcount;
+	local t, D, id, f, o, O, d, I, J, K, L, N, e, q, i, Digo, nlc;
 	
 	# Digraph with nodes {1, .., n} and an edge from x to y if there exists g in
 	# G such that g(x) = y.
