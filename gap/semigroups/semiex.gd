@@ -81,3 +81,5 @@ DeclareSynonym("FullMatrixMonoid", GeneralLinearMonoid);
 
 DeclareOperation("SpecialLinearMonoid", [IsPosInt, IsPosInt]);
 DeclareSynonym("SLM", SpecialLinearMonoid);
+
+DeclareOperation("MinimalContainingSingularSemigroup", [IsGroup]);
